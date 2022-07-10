@@ -1,0 +1,14 @@
+name: Announcement
+version: '${project.version}'
+main: net.capbear.announcement.Announcement
+api-version: 1.19
+authors: [ CaptainBear ]
+description: Loops through announcements laid out in config file, ignorable
+commands:
+  announcement:
+    description: Commands for Announcer
+    usage: /announcement
+    permission: announcement.command
+  toggleannouncements:
+    description: Toggles Announcements
+    usage: /toggleannouncements
